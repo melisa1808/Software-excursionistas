@@ -1,0 +1,36 @@
+
+:root{--main-color:#008d84;
+    --color1:#e0e8f5;
+    --color2:#00c2b9;
+    --green-800:#00493c;
+    --green-700:#006054;
+    --white-900:#ffffff;
+    --white-800:rgba(255,255,255,0.8);
+    --shadow: 0 0 15px rgba(0,0,0,0.2);
+    scroll-behavior: smooth;
+    }
+    body{font-family: 'Poppins', sans-serif; font-size: 16px; line-height: 1.5; font-weight: 300; overflow-x: hidden;}
+*{margin: 0; padding: 0; box-sizing: border-box; outline: none;}
+
+
+.center{
+    text-align: center;
+    padding: 15px;
+}
+.tabs-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.btn-r{
+    border: none;
+    margin-left: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius:5px;
+}
+#datos{
+    margin-left: 15px;
+}
